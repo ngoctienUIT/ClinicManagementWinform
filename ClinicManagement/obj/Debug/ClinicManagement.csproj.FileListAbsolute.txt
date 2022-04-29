@@ -1,0 +1,10 @@
+D:\Code\ClinicManagement\ClinicManagement\bin\Debug\ClinicManagement.exe.config
+D:\Code\ClinicManagement\ClinicManagement\bin\Debug\ClinicManagement.exe
+D:\Code\ClinicManagement\ClinicManagement\bin\Debug\ClinicManagement.pdb
+D:\Code\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.csproj.AssemblyReference.cache
+D:\Code\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.csproj.SuggestedBindingRedirects.cache
+D:\Code\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.Properties.Resources.resources
+D:\Code\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.csproj.GenerateResource.cache
+D:\Code\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.csproj.CoreCompileInputs.cache
+D:\Code\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.exe
+D:\Code\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.pdb
