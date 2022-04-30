@@ -8,3 +8,15 @@ D:\Code\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.csproj.Gene
 D:\Code\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.csproj.CoreCompileInputs.cache
 D:\Code\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.exe
 D:\Code\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.pdb
+D:\Project\ClinicManagementWinform\ClinicManagement\bin\Debug\ClinicManagement.exe.config
+D:\Project\ClinicManagementWinform\ClinicManagement\bin\Debug\ClinicManagement.exe
+D:\Project\ClinicManagementWinform\ClinicManagement\bin\Debug\ClinicManagement.pdb
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.csproj.AssemblyReference.cache
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.csproj.SuggestedBindingRedirects.cache
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.Properties.Resources.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.PatientLookup.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.csproj.GenerateResource.cache
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.csproj.CoreCompileInputs.cache
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.exe
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.pdb
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.Form1.resources
