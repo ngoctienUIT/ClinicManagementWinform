@@ -61,11 +61,29 @@
     <Compile Include="CustomView\CustomPanel.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="View\AddNewStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AddNewStaff.Designer.cs">
+      <DependentUpon>AddNewStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\InvoiceDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\InvoiceDetails.Designer.cs">
+      <DependentUpon>InvoiceDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\PatientLookup.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\PatientLookup.Designer.cs">
       <DependentUpon>PatientLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\RevenueManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RevenueManagement.Designer.cs">
+      <DependentUpon>RevenueManagement.cs</DependentUpon>
     </Compile>
     <Compile Include="View\StaffInformation.cs">
       <SubType>Form</SubType>
@@ -86,8 +104,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="View\AddNewStaff.resx">
+      <DependentUpon>AddNewStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\InvoiceDetails.resx">
+      <DependentUpon>InvoiceDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\PatientLookup.resx">
       <DependentUpon>PatientLookup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\RevenueManagement.resx">
+      <DependentUpon>RevenueManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\StaffInformation.resx">
       <DependentUpon>StaffInformation.cs</DependentUpon>
@@ -113,6 +140,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\revenue.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
