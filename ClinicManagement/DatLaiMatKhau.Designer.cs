@@ -51,6 +51,10 @@
             // 
             this.button_WOC3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button_WOC3.ButtonColor = System.Drawing.Color.White;
+            this.button_WOC3.FlatAppearance.BorderSize = 0;
+            this.button_WOC3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_WOC3.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button_WOC3.Location = new System.Drawing.Point(538, 402);
             this.button_WOC3.Name = "button_WOC3";
@@ -65,8 +69,14 @@
             // 
             // button_WOC2
             // 
+            this.button_WOC2.BackColor = System.Drawing.Color.White;
+            this.button_WOC2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button_WOC2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button_WOC2.ButtonColor = System.Drawing.Color.White;
+            this.button_WOC2.FlatAppearance.BorderSize = 0;
+            this.button_WOC2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_WOC2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button_WOC2.Location = new System.Drawing.Point(286, 402);
             this.button_WOC2.Name = "button_WOC2";
@@ -77,7 +87,7 @@
             this.button_WOC2.TabIndex = 12;
             this.button_WOC2.Text = "Đặt lại mật khẩu";
             this.button_WOC2.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.button_WOC2.UseVisualStyleBackColor = true;
+            this.button_WOC2.UseVisualStyleBackColor = false;
             // 
             // rjTextBox2
             // 
@@ -98,6 +108,7 @@
             this.rjTextBox2.PlaceholderText = "Mật khẩu mới";
             this.rjTextBox2.Size = new System.Drawing.Size(598, 38);
             this.rjTextBox2.TabIndex = 5;
+            this.rjTextBox2.TabStop = false;
             this.rjTextBox2.Texts = "";
             this.rjTextBox2.UnderlinedStyle = true;
             // 
@@ -121,6 +132,7 @@
             this.rjTextBox1.PlaceholderText = "Mật khẩu cũ";
             this.rjTextBox1.Size = new System.Drawing.Size(598, 38);
             this.rjTextBox1.TabIndex = 4;
+            this.rjTextBox1.TabStop = false;
             this.rjTextBox1.Texts = "";
             this.rjTextBox1.UnderlinedStyle = true;
             // 
@@ -143,6 +155,7 @@
             this.rjTextBox4.PlaceholderText = "Nhập lại mật khẩu";
             this.rjTextBox4.Size = new System.Drawing.Size(598, 38);
             this.rjTextBox4.TabIndex = 14;
+            this.rjTextBox4.TabStop = false;
             this.rjTextBox4.Texts = "";
             this.rjTextBox4.UnderlinedStyle = true;
             // 
@@ -165,6 +178,7 @@
             this.Name = "DatLaiMatKhau";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đặt Lại Mật Khẩu";
+            this.Load += new System.EventHandler(this.DatLaiMatKhau_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

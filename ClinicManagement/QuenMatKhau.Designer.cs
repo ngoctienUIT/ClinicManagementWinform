@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.rjTextBox4 = new ClinicManagement.RJTextBox();
             this.button_WOC3 = new ClinicManagement.Button_WOC();
             this.button_WOC2 = new ClinicManagement.Button_WOC();
             this.button_WOC1 = new ClinicManagement.Button_WOC();
             this.rjTextBox3 = new ClinicManagement.RJTextBox();
             this.rjTextBox2 = new ClinicManagement.RJTextBox();
             this.rjTextBox1 = new ClinicManagement.RJTextBox();
-            this.rjTextBox4 = new ClinicManagement.RJTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -50,10 +50,37 @@
             this.label1.Text = "QUÊN MẬT KHẨU";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // rjTextBox4
+            // 
+            this.rjTextBox4.BackColor = System.Drawing.SystemColors.Window;
+            this.rjTextBox4.BorderColor = System.Drawing.Color.MediumSeaGreen;
+            this.rjTextBox4.BorderFocusColor = System.Drawing.Color.Green;
+            this.rjTextBox4.BorderRadius = 0;
+            this.rjTextBox4.BorderSize = 2;
+            this.rjTextBox4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.rjTextBox4.Location = new System.Drawing.Point(84, 290);
+            this.rjTextBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBox4.Multiline = false;
+            this.rjTextBox4.Name = "rjTextBox4";
+            this.rjTextBox4.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.rjTextBox4.PasswordChar = true;
+            this.rjTextBox4.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.rjTextBox4.PlaceholderText = "Nhập lại mật khẩu";
+            this.rjTextBox4.Size = new System.Drawing.Size(598, 38);
+            this.rjTextBox4.TabIndex = 14;
+            this.rjTextBox4.TabStop = false;
+            this.rjTextBox4.Texts = "";
+            this.rjTextBox4.UnderlinedStyle = true;
+            // 
             // button_WOC3
             // 
             this.button_WOC3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button_WOC3.ButtonColor = System.Drawing.Color.White;
+            this.button_WOC3.FlatAppearance.BorderSize = 0;
+            this.button_WOC3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_WOC3.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button_WOC3.Location = new System.Drawing.Point(538, 479);
             this.button_WOC3.Name = "button_WOC3";
@@ -70,6 +97,10 @@
             // 
             this.button_WOC2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button_WOC2.ButtonColor = System.Drawing.Color.White;
+            this.button_WOC2.FlatAppearance.BorderSize = 0;
+            this.button_WOC2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_WOC2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button_WOC2.Location = new System.Drawing.Point(286, 479);
             this.button_WOC2.Name = "button_WOC2";
@@ -86,13 +117,17 @@
             // 
             this.button_WOC1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button_WOC1.ButtonColor = System.Drawing.Color.White;
+            this.button_WOC1.FlatAppearance.BorderSize = 0;
+            this.button_WOC1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_WOC1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button_WOC1.Location = new System.Drawing.Point(522, 130);
             this.button_WOC1.Name = "button_WOC1";
             this.button_WOC1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button_WOC1.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button_WOC1.OnHoverTextColor = System.Drawing.Color.White;
-            this.button_WOC1.Size = new System.Drawing.Size(163, 38);
+            this.button_WOC1.Size = new System.Drawing.Size(171, 38);
             this.button_WOC1.TabIndex = 11;
             this.button_WOC1.Text = "Lấy mã xác nhận";
             this.button_WOC1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
@@ -117,6 +152,7 @@
             this.rjTextBox3.PlaceholderText = "Mã xác nhận (được gửi qua Email)";
             this.rjTextBox3.Size = new System.Drawing.Size(598, 38);
             this.rjTextBox3.TabIndex = 6;
+            this.rjTextBox3.TabStop = false;
             this.rjTextBox3.Texts = "";
             this.rjTextBox3.UnderlinedStyle = true;
             // 
@@ -139,6 +175,7 @@
             this.rjTextBox2.PlaceholderText = "Mật khẩu mới";
             this.rjTextBox2.Size = new System.Drawing.Size(598, 38);
             this.rjTextBox2.TabIndex = 5;
+            this.rjTextBox2.TabStop = false;
             this.rjTextBox2.Texts = "";
             this.rjTextBox2.UnderlinedStyle = true;
             // 
@@ -162,30 +199,9 @@
             this.rjTextBox1.PlaceholderText = "Email";
             this.rjTextBox1.Size = new System.Drawing.Size(428, 38);
             this.rjTextBox1.TabIndex = 4;
+            this.rjTextBox1.TabStop = false;
             this.rjTextBox1.Texts = "";
             this.rjTextBox1.UnderlinedStyle = true;
-            // 
-            // rjTextBox4
-            // 
-            this.rjTextBox4.BackColor = System.Drawing.SystemColors.Window;
-            this.rjTextBox4.BorderColor = System.Drawing.Color.MediumSeaGreen;
-            this.rjTextBox4.BorderFocusColor = System.Drawing.Color.Green;
-            this.rjTextBox4.BorderRadius = 0;
-            this.rjTextBox4.BorderSize = 2;
-            this.rjTextBox4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox4.Location = new System.Drawing.Point(84, 290);
-            this.rjTextBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBox4.Multiline = false;
-            this.rjTextBox4.Name = "rjTextBox4";
-            this.rjTextBox4.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.rjTextBox4.PasswordChar = true;
-            this.rjTextBox4.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.rjTextBox4.PlaceholderText = "Nhập lại mật khẩu";
-            this.rjTextBox4.Size = new System.Drawing.Size(598, 38);
-            this.rjTextBox4.TabIndex = 14;
-            this.rjTextBox4.Texts = "";
-            this.rjTextBox4.UnderlinedStyle = true;
             // 
             // QuenMatKhau
             // 

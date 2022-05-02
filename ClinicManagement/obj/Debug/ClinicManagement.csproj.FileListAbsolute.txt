@@ -85,3 +85,8 @@ D:\IT\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.csproj
 D:\IT\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.csproj.CoreCompileInputs.cache
 D:\IT\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.exe
 D:\IT\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.pdb
+D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.DanhSachHoaDon.resources
+D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.PhieuKhamBenh.resources
+D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.ThemMoiNhanVien.resources
+D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.ThongTinNhanVien.resources
+D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.TraCuuBenhNhan.resources

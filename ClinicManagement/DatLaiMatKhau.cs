@@ -16,5 +16,10 @@ namespace ClinicManagement
         {
             InitializeComponent();
         }
+
+        private void DatLaiMatKhau_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
