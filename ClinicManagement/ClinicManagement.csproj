@@ -71,6 +71,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\BenhNhan.cs" />
+    <Compile Include="Model\CTPhieuKhamBenh.cs" />
+    <Compile Include="Model\HoaDon.cs" />
+    <Compile Include="Model\NhanVien.cs" />
+    <Compile Include="Model\PhieuKhamBenh.cs" />
     <Compile Include="PhieuKhamBenh.cs">
       <SubType>Form</SubType>
     </Compile>

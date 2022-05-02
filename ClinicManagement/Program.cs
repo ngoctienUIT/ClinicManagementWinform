@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClinicManagement.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,12 +17,7 @@ namespace ClinicManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new DatLaiMatKhau());
-            Application.Run(new ThemMoiNhanVien());
-            Application.Run(new PhieuKhamBenh());
-            Application.Run(new DanhSachHoaDon());
-            Application.Run(new TraCuuBenhNhan());
-            Application.Run(new ThongTinNhanVien());
+            Application.Run(new RevenueManagement());
         }
     }
 }

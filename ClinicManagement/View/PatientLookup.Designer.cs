@@ -28,11 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.name = new System.Windows.Forms.Label();
-            this.customPanel1 = new ClinicManagement.CustomView.CustomPanel();
-            this.search = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.avatar = new System.Windows.Forms.PictureBox();
             this.down = new System.Windows.Forms.Button();
             this.title = new System.Windows.Forms.Label();
@@ -48,13 +46,16 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.back = new ClinicManagement.CustomView.CustomButton();
             this.printList = new ClinicManagement.CustomView.CustomButton();
+            this.customPanel1 = new ClinicManagement.CustomView.CustomPanel();
+            this.search = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.customPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.avatar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.icon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
+            this.customPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -84,47 +85,6 @@
             this.name.Size = new System.Drawing.Size(148, 25);
             this.name.TabIndex = 5;
             this.name.Text = "Trần Ngọc Tiến";
-            // 
-            // customPanel1
-            // 
-            this.customPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.customPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.customPanel1.borderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.customPanel1.borderWidth = 2;
-            this.customPanel1.Controls.Add(this.search);
-            this.customPanel1.Controls.Add(this.pictureBox1);
-            this.customPanel1.fillColor = System.Drawing.Color.White;
-            this.customPanel1.isBorder = true;
-            this.customPanel1.isFill = true;
-            this.customPanel1.Location = new System.Drawing.Point(645, 12);
-            this.customPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.customPanel1.Name = "customPanel1";
-            this.customPanel1.padding = 2;
-            this.customPanel1.radius = 90;
-            this.customPanel1.Size = new System.Drawing.Size(469, 50);
-            this.customPanel1.TabIndex = 1;
-            // 
-            // search
-            // 
-            this.search.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.search.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.search.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.search.Location = new System.Drawing.Point(65, 11);
-            this.search.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.search.Name = "search";
-            this.search.Size = new System.Drawing.Size(387, 31);
-            this.search.TabIndex = 3;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::ClinicManagement.Properties.Resources.search;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(30, 12);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(29, 30);
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
             // 
             // avatar
             // 
@@ -181,6 +141,8 @@
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.serial,
@@ -189,6 +151,15 @@
             this.day,
             this.type,
             this.symptom});
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView1.GridColor = System.Drawing.Color.White;
             this.dataGridView1.Location = new System.Drawing.Point(13, 145);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -201,42 +172,36 @@
             this.serial.HeaderText = "STT";
             this.serial.MinimumWidth = 6;
             this.serial.Name = "serial";
-            this.serial.Width = 125;
             // 
             // patientCode
             // 
             this.patientCode.HeaderText = "Mã bệnh nhân";
             this.patientCode.MinimumWidth = 6;
             this.patientCode.Name = "patientCode";
-            this.patientCode.Width = 125;
             // 
             // fullName
             // 
             this.fullName.HeaderText = "Họ tên";
             this.fullName.MinimumWidth = 6;
             this.fullName.Name = "fullName";
-            this.fullName.Width = 125;
             // 
             // day
             // 
             this.day.HeaderText = "Ngày khám";
             this.day.MinimumWidth = 6;
             this.day.Name = "day";
-            this.day.Width = 125;
             // 
             // type
             // 
             this.type.HeaderText = "Loại bệnh";
             this.type.MinimumWidth = 6;
             this.type.Name = "type";
-            this.type.Width = 125;
             // 
             // symptom
             // 
             this.symptom.HeaderText = "Triệu chứng";
             this.symptom.MinimumWidth = 6;
             this.symptom.Name = "symptom";
-            this.symptom.Width = 125;
             // 
             // label1
             // 
@@ -304,6 +269,47 @@
             this.printList.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
             this.printList.UseVisualStyleBackColor = false;
             // 
+            // customPanel1
+            // 
+            this.customPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.customPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.customPanel1.borderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.customPanel1.borderWidth = 2;
+            this.customPanel1.Controls.Add(this.search);
+            this.customPanel1.Controls.Add(this.pictureBox1);
+            this.customPanel1.fillColor = System.Drawing.Color.White;
+            this.customPanel1.isBorder = true;
+            this.customPanel1.isFill = true;
+            this.customPanel1.Location = new System.Drawing.Point(645, 12);
+            this.customPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.customPanel1.Name = "customPanel1";
+            this.customPanel1.padding = 2;
+            this.customPanel1.radius = 90;
+            this.customPanel1.Size = new System.Drawing.Size(469, 50);
+            this.customPanel1.TabIndex = 1;
+            // 
+            // search
+            // 
+            this.search.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.search.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.search.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search.Location = new System.Drawing.Point(65, 11);
+            this.search.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.search.Name = "search";
+            this.search.Size = new System.Drawing.Size(387, 31);
+            this.search.TabIndex = 3;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::ClinicManagement.Properties.Resources.search;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(30, 12);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(29, 30);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
             // PatientLookup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -315,15 +321,16 @@
             this.Name = "PatientLookup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tra cứu bệnh nhân";
+            this.Load += new System.EventHandler(this.PatientLookup_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.customPanel1.ResumeLayout(false);
-            this.customPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.avatar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.icon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.customPanel1.ResumeLayout(false);
+            this.customPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

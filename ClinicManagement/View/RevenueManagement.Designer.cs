@@ -47,6 +47,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.maHoaDon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenKhachHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ngayKham = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tienKham = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tienThuoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.customPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -280,7 +287,16 @@
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.STT,
+            this.maHoaDon,
+            this.tenKhachHang,
+            this.ngayKham,
+            this.tienKham,
+            this.tienThuoc,
+            this.tong});
             this.dataGridView1.Location = new System.Drawing.Point(34, 124);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -323,6 +339,48 @@
             this.label1.Text = "DANH SÁCH HÓA ĐƠN";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // STT
+            // 
+            this.STT.HeaderText = "STT";
+            this.STT.MinimumWidth = 6;
+            this.STT.Name = "STT";
+            // 
+            // maHoaDon
+            // 
+            this.maHoaDon.HeaderText = "Mã hóa đơn";
+            this.maHoaDon.MinimumWidth = 6;
+            this.maHoaDon.Name = "maHoaDon";
+            // 
+            // tenKhachHang
+            // 
+            this.tenKhachHang.HeaderText = "Tên khách hàng";
+            this.tenKhachHang.MinimumWidth = 6;
+            this.tenKhachHang.Name = "tenKhachHang";
+            // 
+            // ngayKham
+            // 
+            this.ngayKham.HeaderText = "Ngày khám";
+            this.ngayKham.MinimumWidth = 6;
+            this.ngayKham.Name = "ngayKham";
+            // 
+            // tienKham
+            // 
+            this.tienKham.HeaderText = "Tiền khám";
+            this.tienKham.MinimumWidth = 6;
+            this.tienKham.Name = "tienKham";
+            // 
+            // tienThuoc
+            // 
+            this.tienThuoc.HeaderText = "Tiền thuốc";
+            this.tienThuoc.MinimumWidth = 6;
+            this.tienThuoc.Name = "tienThuoc";
+            // 
+            // tong
+            // 
+            this.tong.HeaderText = "Tổng";
+            this.tong.MinimumWidth = 6;
+            this.tong.Name = "tong";
+            // 
             // RevenueManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -332,6 +390,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "RevenueManagement";
             this.Text = "RevenueManagement";
+            this.Load += new System.EventHandler(this.RevenueManagement_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.customPanel1.ResumeLayout(false);
@@ -367,5 +426,12 @@
         private CustomView.CustomButton back;
         private CustomView.CustomButton report;
         private CustomView.CustomButton printInvoiceList;
+        private System.Windows.Forms.DataGridViewTextBoxColumn STT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn maHoaDon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenKhachHang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ngayKham;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tienKham;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tienThuoc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tong;
     }
 }
