@@ -53,6 +53,12 @@
     <Compile Include="CustomView\CustomButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="DanhSachHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhSachHoaDon.Designer.cs">
+      <DependentUpon>DanhSachHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatLaiMatKhau.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuKhamBenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhieuKhamBenh.Designer.cs">
+      <DependentUpon>PhieuKhamBenh.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,6 +93,24 @@
     </Compile>
     <Compile Include="RJTextBox.Designer.cs">
       <DependentUpon>RJTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemMoiNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemMoiNhanVien.Designer.cs">
+      <DependentUpon>ThemMoiNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTinNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongTinNhanVien.Designer.cs">
+      <DependentUpon>ThongTinNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraCuuBenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraCuuBenhNhan.Designer.cs">
+      <DependentUpon>TraCuuBenhNhan.cs</DependentUpon>
     </Compile>
     <Compile Include="View\AddNewStaff.cs">
       <SubType>Form</SubType>
@@ -112,11 +142,17 @@
     <Compile Include="View\StaffInformation.Designer.cs">
       <DependentUpon>StaffInformation.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DanhSachHoaDon.resx">
+      <DependentUpon>DanhSachHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DatLaiMatKhau.resx">
       <DependentUpon>DatLaiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhieuKhamBenh.resx">
+      <DependentUpon>PhieuKhamBenh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -133,6 +169,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RJTextBox.resx">
       <DependentUpon>RJTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemMoiNhanVien.resx">
+      <DependentUpon>ThemMoiNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongTinNhanVien.resx">
+      <DependentUpon>ThongTinNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraCuuBenhNhan.resx">
+      <DependentUpon>TraCuuBenhNhan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\AddNewStaff.resx">
       <DependentUpon>AddNewStaff.cs</DependentUpon>
@@ -173,6 +218,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\revenue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-04-26 103146.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-5 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-05-02 175304.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-05-02 175602.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

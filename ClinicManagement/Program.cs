@@ -16,7 +16,12 @@ namespace ClinicManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DatLaiMatKhau());
+            //Application.Run(new DatLaiMatKhau());
+            Application.Run(new ThemMoiNhanVien());
+            Application.Run(new PhieuKhamBenh());
+            Application.Run(new DanhSachHoaDon());
+            Application.Run(new TraCuuBenhNhan());
+            Application.Run(new ThongTinNhanVien());
         }
     }
 }
