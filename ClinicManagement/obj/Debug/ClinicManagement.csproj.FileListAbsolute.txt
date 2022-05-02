@@ -37,3 +37,4 @@ D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.exe
 D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.pdb
 D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.QuenMatKhau.resources
 D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.RJTextBox.resources
+D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.DatLaiMatKhau.resources
