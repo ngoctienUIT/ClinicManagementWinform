@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.birthday = new System.Windows.Forms.DateTimePicker();
             this.add = new ClinicManagement.CustomView.CustomButton();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cmnd = new System.Windows.Forms.TextBox();
+            this.address = new System.Windows.Forms.TextBox();
+            this.position = new System.Windows.Forms.TextBox();
+            this.email = new System.Windows.Forms.TextBox();
+            this.salary = new System.Windows.Forms.TextBox();
+            this.name = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -44,12 +44,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.id = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.avatar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.avatar)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -58,14 +58,14 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.birthday);
             this.panel1.Controls.Add(this.add);
-            this.panel1.Controls.Add(this.textBox7);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.cmnd);
+            this.panel1.Controls.Add(this.address);
+            this.panel1.Controls.Add(this.position);
+            this.panel1.Controls.Add(this.email);
+            this.panel1.Controls.Add(this.salary);
+            this.panel1.Controls.Add(this.name);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label8);
@@ -73,14 +73,23 @@
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.id);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.avatar);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, -1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(799, 542);
             this.panel1.TabIndex = 0;
+            // 
+            // birthday
+            // 
+            this.birthday.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.birthday.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.birthday.Location = new System.Drawing.Point(501, 180);
+            this.birthday.Name = "birthday";
+            this.birthday.Size = new System.Drawing.Size(267, 22);
+            this.birthday.TabIndex = 19;
             // 
             // add
             // 
@@ -101,61 +110,53 @@
             this.add.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
             this.add.UseVisualStyleBackColor = false;
             // 
-            // textBox7
+            // cmnd
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(501, 115);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(267, 30);
-            this.textBox7.TabIndex = 17;
+            this.cmnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmnd.Location = new System.Drawing.Point(501, 115);
+            this.cmnd.Name = "cmnd";
+            this.cmnd.Size = new System.Drawing.Size(267, 30);
+            this.cmnd.TabIndex = 17;
             // 
-            // textBox6
+            // address
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(501, 175);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(267, 30);
-            this.textBox6.TabIndex = 16;
+            this.address.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.address.Location = new System.Drawing.Point(501, 231);
+            this.address.Name = "address";
+            this.address.Size = new System.Drawing.Size(267, 30);
+            this.address.TabIndex = 15;
             // 
-            // textBox5
+            // position
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(501, 231);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(267, 30);
-            this.textBox5.TabIndex = 15;
+            this.position.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.position.Location = new System.Drawing.Point(501, 286);
+            this.position.Name = "position";
+            this.position.Size = new System.Drawing.Size(267, 30);
+            this.position.TabIndex = 14;
             // 
-            // textBox4
+            // email
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(501, 286);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(267, 30);
-            this.textBox4.TabIndex = 14;
+            this.email.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email.Location = new System.Drawing.Point(501, 342);
+            this.email.Name = "email";
+            this.email.Size = new System.Drawing.Size(267, 30);
+            this.email.TabIndex = 13;
             // 
-            // textBox3
+            // salary
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(501, 342);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(267, 30);
-            this.textBox3.TabIndex = 13;
+            this.salary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.salary.Location = new System.Drawing.Point(501, 390);
+            this.salary.Name = "salary";
+            this.salary.Size = new System.Drawing.Size(267, 30);
+            this.salary.TabIndex = 12;
             // 
-            // textBox2
+            // name
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(501, 390);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(267, 30);
-            this.textBox2.TabIndex = 12;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(501, 62);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(267, 30);
-            this.textBox1.TabIndex = 11;
+            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name.Location = new System.Drawing.Point(501, 62);
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(267, 30);
+            this.name.TabIndex = 11;
             // 
             // label10
             // 
@@ -234,16 +235,16 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Họ và tên:";
             // 
-            // label3
+            // id
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(94)))), ((int)(((byte)(105)))));
-            this.label3.Location = new System.Drawing.Point(141, 393);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 25);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "PMT007";
+            this.id.AutoSize = true;
+            this.id.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(94)))), ((int)(((byte)(105)))));
+            this.id.Location = new System.Drawing.Point(141, 393);
+            this.id.Name = "id";
+            this.id.Size = new System.Drawing.Size(94, 25);
+            this.id.TabIndex = 3;
+            this.id.Text = "PMT007";
             // 
             // label2
             // 
@@ -256,13 +257,13 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Mã NV:";
             // 
-            // pictureBox1
+            // avatar
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(27, 67);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(238, 303);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.avatar.Location = new System.Drawing.Point(27, 67);
+            this.avatar.Name = "avatar";
+            this.avatar.Size = new System.Drawing.Size(238, 303);
+            this.avatar.TabIndex = 1;
+            this.avatar.TabStop = false;
             // 
             // label1
             // 
@@ -287,7 +288,7 @@
             this.Text = "AddNewStaff";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.avatar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -296,13 +297,12 @@
 
         private System.Windows.Forms.Panel panel1;
         private CustomView.CustomButton add;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox cmnd;
+        private System.Windows.Forms.TextBox address;
+        private System.Windows.Forms.TextBox position;
+        private System.Windows.Forms.TextBox email;
+        private System.Windows.Forms.TextBox salary;
+        private System.Windows.Forms.TextBox name;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
@@ -310,9 +310,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label id;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox avatar;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker birthday;
     }
 }

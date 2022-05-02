@@ -35,18 +35,18 @@
             this.search = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.avatar = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.down = new System.Windows.Forms.Button();
             this.icon = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.back = new ClinicManagement.CustomView.CustomButton();
+            this.report = new ClinicManagement.CustomView.CustomButton();
+            this.printInvoiceList = new ClinicManagement.CustomView.CustomButton();
+            this.toDate = new System.Windows.Forms.DateTimePicker();
+            this.since = new System.Windows.Forms.DateTimePicker();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.customButton1 = new ClinicManagement.CustomView.CustomButton();
-            this.customButton2 = new ClinicManagement.CustomView.CustomButton();
-            this.customButton3 = new ClinicManagement.CustomView.CustomButton();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.customPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -75,7 +75,7 @@
             this.panel1.Controls.Add(this.name);
             this.panel1.Controls.Add(this.customPanel1);
             this.panel1.Controls.Add(this.avatar);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.down);
             this.panel1.Controls.Add(this.title);
             this.panel1.Controls.Add(this.icon);
             this.panel1.Location = new System.Drawing.Point(1, 0);
@@ -149,19 +149,19 @@
             this.avatar.TabIndex = 4;
             this.avatar.TabStop = false;
             // 
-            // button1
+            // down
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.down.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::ClinicManagement.Properties.Resources.down_arrow;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(1325, 18);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(40, 39);
-            this.button1.TabIndex = 2;
-            this.button1.UseVisualStyleBackColor = false;
+            this.down.BackColor = System.Drawing.Color.Transparent;
+            this.down.BackgroundImage = global::ClinicManagement.Properties.Resources.down_arrow;
+            this.down.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.down.Location = new System.Drawing.Point(1325, 18);
+            this.down.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.down.Name = "down";
+            this.down.Size = new System.Drawing.Size(40, 39);
+            this.down.TabIndex = 2;
+            this.down.UseVisualStyleBackColor = false;
             // 
             // icon
             // 
@@ -181,11 +181,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.customButton3);
-            this.panel2.Controls.Add(this.customButton2);
-            this.panel2.Controls.Add(this.customButton1);
-            this.panel2.Controls.Add(this.dateTimePicker2);
-            this.panel2.Controls.Add(this.dateTimePicker1);
+            this.panel2.Controls.Add(this.back);
+            this.panel2.Controls.Add(this.report);
+            this.panel2.Controls.Add(this.printInvoiceList);
+            this.panel2.Controls.Add(this.toDate);
+            this.panel2.Controls.Add(this.since);
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
@@ -195,40 +195,85 @@
             this.panel2.Size = new System.Drawing.Size(1389, 646);
             this.panel2.TabIndex = 2;
             // 
-            // label1
+            // back
             // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(84)))), ((int)(((byte)(43)))));
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1389, 66);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "DANH SÁCH HÓA ĐƠN";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.back.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.back.BackColor = System.Drawing.Color.White;
+            this.back.BackgroundColor = System.Drawing.Color.White;
+            this.back.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
+            this.back.BorderRadius = 15;
+            this.back.BorderSize = 2;
+            this.back.FlatAppearance.BorderSize = 0;
+            this.back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.back.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.back.Location = new System.Drawing.Point(1215, 592);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(150, 40);
+            this.back.TabIndex = 8;
+            this.back.Text = "Quay lại";
+            this.back.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.back.UseVisualStyleBackColor = false;
             // 
-            // label2
+            // report
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(84)))), ((int)(((byte)(43)))));
-            this.label2.Location = new System.Drawing.Point(246, 76);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Từ ngày:";
+            this.report.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.report.BackColor = System.Drawing.Color.White;
+            this.report.BackgroundColor = System.Drawing.Color.White;
+            this.report.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
+            this.report.BorderRadius = 15;
+            this.report.BorderSize = 2;
+            this.report.FlatAppearance.BorderSize = 0;
+            this.report.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.report.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.report.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.report.Location = new System.Drawing.Point(383, 583);
+            this.report.Name = "report";
+            this.report.Size = new System.Drawing.Size(231, 40);
+            this.report.TabIndex = 7;
+            this.report.Text = "Lập báo cáo tháng";
+            this.report.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.report.UseVisualStyleBackColor = false;
             // 
-            // label3
+            // printInvoiceList
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(84)))), ((int)(((byte)(43)))));
-            this.label3.Location = new System.Drawing.Point(824, 76);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 25);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Đến ngày:";
+            this.printInvoiceList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.printInvoiceList.BackColor = System.Drawing.Color.White;
+            this.printInvoiceList.BackgroundColor = System.Drawing.Color.White;
+            this.printInvoiceList.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
+            this.printInvoiceList.BorderRadius = 15;
+            this.printInvoiceList.BorderSize = 2;
+            this.printInvoiceList.FlatAppearance.BorderSize = 0;
+            this.printInvoiceList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.printInvoiceList.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.printInvoiceList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.printInvoiceList.Location = new System.Drawing.Point(34, 583);
+            this.printInvoiceList.Name = "printInvoiceList";
+            this.printInvoiceList.Size = new System.Drawing.Size(252, 40);
+            this.printInvoiceList.TabIndex = 6;
+            this.printInvoiceList.Text = "In danh sách hóa đơn";
+            this.printInvoiceList.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.printInvoiceList.UseVisualStyleBackColor = false;
+            // 
+            // toDate
+            // 
+            this.toDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.toDate.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toDate.Location = new System.Drawing.Point(956, 79);
+            this.toDate.Name = "toDate";
+            this.toDate.Size = new System.Drawing.Size(252, 22);
+            this.toDate.TabIndex = 5;
+            // 
+            // since
+            // 
+            this.since.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.since.Location = new System.Drawing.Point(362, 79);
+            this.since.Name = "since";
+            this.since.Size = new System.Drawing.Size(252, 22);
+            this.since.TabIndex = 4;
             // 
             // dataGridView1
             // 
@@ -243,85 +288,40 @@
             this.dataGridView1.Size = new System.Drawing.Size(1331, 418);
             this.dataGridView1.TabIndex = 3;
             // 
-            // dateTimePicker1
+            // label3
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(362, 79);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(252, 22);
-            this.dateTimePicker1.TabIndex = 4;
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(84)))), ((int)(((byte)(43)))));
+            this.label3.Location = new System.Drawing.Point(824, 76);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(111, 25);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Đến ngày:";
             // 
-            // dateTimePicker2
+            // label2
             // 
-            this.dateTimePicker2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.dateTimePicker2.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(956, 79);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(252, 22);
-            this.dateTimePicker2.TabIndex = 5;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(84)))), ((int)(((byte)(43)))));
+            this.label2.Location = new System.Drawing.Point(246, 76);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(98, 25);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Từ ngày:";
             // 
-            // customButton1
+            // label1
             // 
-            this.customButton1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.customButton1.BackColor = System.Drawing.Color.White;
-            this.customButton1.BackgroundColor = System.Drawing.Color.White;
-            this.customButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
-            this.customButton1.BorderRadius = 15;
-            this.customButton1.BorderSize = 2;
-            this.customButton1.FlatAppearance.BorderSize = 0;
-            this.customButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton1.Location = new System.Drawing.Point(34, 583);
-            this.customButton1.Name = "customButton1";
-            this.customButton1.Size = new System.Drawing.Size(252, 40);
-            this.customButton1.TabIndex = 6;
-            this.customButton1.Text = "In danh sách hóa đơn";
-            this.customButton1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton1.UseVisualStyleBackColor = false;
-            // 
-            // customButton2
-            // 
-            this.customButton2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.customButton2.BackColor = System.Drawing.Color.White;
-            this.customButton2.BackgroundColor = System.Drawing.Color.White;
-            this.customButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
-            this.customButton2.BorderRadius = 15;
-            this.customButton2.BorderSize = 2;
-            this.customButton2.FlatAppearance.BorderSize = 0;
-            this.customButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton2.Location = new System.Drawing.Point(383, 583);
-            this.customButton2.Name = "customButton2";
-            this.customButton2.Size = new System.Drawing.Size(231, 40);
-            this.customButton2.TabIndex = 7;
-            this.customButton2.Text = "Lập báo cáo tháng";
-            this.customButton2.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton2.UseVisualStyleBackColor = false;
-            // 
-            // customButton3
-            // 
-            this.customButton3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.customButton3.BackColor = System.Drawing.Color.White;
-            this.customButton3.BackgroundColor = System.Drawing.Color.White;
-            this.customButton3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
-            this.customButton3.BorderRadius = 15;
-            this.customButton3.BorderSize = 2;
-            this.customButton3.FlatAppearance.BorderSize = 0;
-            this.customButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton3.Location = new System.Drawing.Point(1215, 592);
-            this.customButton3.Name = "customButton3";
-            this.customButton3.Size = new System.Drawing.Size(150, 40);
-            this.customButton3.TabIndex = 8;
-            this.customButton3.Text = "Quay lại";
-            this.customButton3.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton3.UseVisualStyleBackColor = false;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(84)))), ((int)(((byte)(43)))));
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1389, 66);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "DANH SÁCH HÓA ĐƠN";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // RevenueManagement
             // 
@@ -356,16 +356,16 @@
         private System.Windows.Forms.TextBox search;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox avatar;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button down;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker toDate;
+        private System.Windows.Forms.DateTimePicker since;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private CustomView.CustomButton customButton3;
-        private CustomView.CustomButton customButton2;
-        private CustomView.CustomButton customButton1;
+        private CustomView.CustomButton back;
+        private CustomView.CustomButton report;
+        private CustomView.CustomButton printInvoiceList;
     }
 }

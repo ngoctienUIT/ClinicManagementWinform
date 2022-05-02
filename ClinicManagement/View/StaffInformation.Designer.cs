@@ -37,26 +37,26 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.name = new System.Windows.Forms.TextBox();
+            this.address = new System.Windows.Forms.TextBox();
+            this.cmnd = new System.Windows.Forms.TextBox();
+            this.salary = new System.Windows.Forms.TextBox();
+            this.email = new System.Windows.Forms.TextBox();
+            this.avatar = new System.Windows.Forms.PictureBox();
+            this.id = new System.Windows.Forms.Label();
+            this.position = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.toDay = new System.Windows.Forms.DateTimePicker();
+            this.since = new System.Windows.Forms.DateTimePicker();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.customButton1 = new ClinicManagement.CustomView.CustomButton();
-            this.customButton2 = new ClinicManagement.CustomView.CustomButton();
-            this.customButton3 = new ClinicManagement.CustomView.CustomButton();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.deleteEmployee = new ClinicManagement.CustomView.CustomButton();
+            this.updateInformation = new ClinicManagement.CustomView.CustomButton();
+            this.AppointmentAdministrator = new ClinicManagement.CustomView.CustomButton();
+            this.birthday = new System.Windows.Forms.DateTimePicker();
+            ((System.ComponentModel.ISupportInitialize)(this.avatar)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -168,100 +168,90 @@
             this.label9.Text = "Thông tin nhân viên";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // name
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(587, 82);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(201, 30);
-            this.textBox1.TabIndex = 9;
+            this.name.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name.Location = new System.Drawing.Point(587, 82);
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(201, 30);
+            this.name.TabIndex = 9;
             // 
-            // textBox3
+            // address
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(587, 212);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(201, 30);
-            this.textBox3.TabIndex = 11;
+            this.address.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.address.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.address.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.address.Location = new System.Drawing.Point(587, 212);
+            this.address.Name = "address";
+            this.address.Size = new System.Drawing.Size(201, 30);
+            this.address.TabIndex = 11;
             // 
-            // textBox4
+            // cmnd
             // 
-            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(587, 163);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(201, 30);
-            this.textBox4.TabIndex = 12;
+            this.cmnd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmnd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cmnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmnd.Location = new System.Drawing.Point(587, 124);
+            this.cmnd.Name = "cmnd";
+            this.cmnd.Size = new System.Drawing.Size(201, 30);
+            this.cmnd.TabIndex = 13;
             // 
-            // textBox5
+            // salary
             // 
-            this.textBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(587, 124);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(201, 30);
-            this.textBox5.TabIndex = 13;
+            this.salary.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.salary.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.salary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.salary.Location = new System.Drawing.Point(587, 372);
+            this.salary.Name = "salary";
+            this.salary.Size = new System.Drawing.Size(201, 30);
+            this.salary.TabIndex = 14;
             // 
-            // textBox6
+            // email
             // 
-            this.textBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(587, 372);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(201, 30);
-            this.textBox6.TabIndex = 14;
+            this.email.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.email.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email.Location = new System.Drawing.Point(587, 317);
+            this.email.Name = "email";
+            this.email.Size = new System.Drawing.Size(201, 30);
+            this.email.TabIndex = 15;
             // 
-            // textBox7
+            // avatar
             // 
-            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(587, 317);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(201, 30);
-            this.textBox7.TabIndex = 15;
+            this.avatar.Location = new System.Drawing.Point(51, 70);
+            this.avatar.Name = "avatar";
+            this.avatar.Size = new System.Drawing.Size(285, 277);
+            this.avatar.TabIndex = 16;
+            this.avatar.TabStop = false;
             // 
-            // pictureBox1
+            // id
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(51, 70);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(285, 277);
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
+            this.id.AutoSize = true;
+            this.id.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(94)))), ((int)(((byte)(105)))));
+            this.id.Location = new System.Drawing.Point(210, 368);
+            this.id.Name = "id";
+            this.id.Size = new System.Drawing.Size(88, 25);
+            this.id.TabIndex = 17;
+            this.id.Text = "PMT001";
             // 
-            // label10
+            // position
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(94)))), ((int)(((byte)(105)))));
-            this.label10.Location = new System.Drawing.Point(210, 368);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(88, 25);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "PMT001";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(587, 255);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(201, 33);
-            this.comboBox1.TabIndex = 18;
+            this.position.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.position.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.position.FormattingEnabled = true;
+            this.position.Location = new System.Drawing.Point(587, 255);
+            this.position.Name = "position";
+            this.position.Size = new System.Drawing.Size(201, 33);
+            this.position.TabIndex = 18;
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Controls.Add(this.dateTimePicker2);
-            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.toDay);
+            this.panel1.Controls.Add(this.since);
             this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.label11);
@@ -280,22 +270,22 @@
             this.dataGridView1.Size = new System.Drawing.Size(776, 292);
             this.dataGridView1.TabIndex = 5;
             // 
-            // dateTimePicker2
+            // toDay
             // 
-            this.dateTimePicker2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(547, 53);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(225, 30);
-            this.dateTimePicker2.TabIndex = 4;
+            this.toDay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.toDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toDay.Location = new System.Drawing.Point(547, 53);
+            this.toDay.Name = "toDay";
+            this.toDay.Size = new System.Drawing.Size(225, 30);
+            this.toDay.TabIndex = 4;
             // 
-            // dateTimePicker1
+            // since
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(149, 53);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(223, 30);
-            this.dateTimePicker1.TabIndex = 3;
+            this.since.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.since.Location = new System.Drawing.Point(149, 53);
+            this.since.Name = "since";
+            this.since.Size = new System.Drawing.Size(223, 30);
+            this.since.TabIndex = 3;
             // 
             // label13
             // 
@@ -331,68 +321,77 @@
             this.label11.Text = "CÁC HÓA ĐƠN ĐÃ LẬP";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // customButton1
+            // deleteEmployee
             // 
-            this.customButton1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.deleteEmployee.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.customButton1.BackColor = System.Drawing.Color.White;
-            this.customButton1.BackgroundColor = System.Drawing.Color.White;
-            this.customButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
-            this.customButton1.BorderRadius = 15;
-            this.customButton1.BorderSize = 2;
-            this.customButton1.FlatAppearance.BorderSize = 0;
-            this.customButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton1.Location = new System.Drawing.Point(12, 849);
-            this.customButton1.Name = "customButton1";
-            this.customButton1.Size = new System.Drawing.Size(170, 40);
-            this.customButton1.TabIndex = 20;
-            this.customButton1.Text = "Xóa nhân viên";
-            this.customButton1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton1.UseVisualStyleBackColor = false;
+            this.deleteEmployee.BackColor = System.Drawing.Color.White;
+            this.deleteEmployee.BackgroundColor = System.Drawing.Color.White;
+            this.deleteEmployee.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
+            this.deleteEmployee.BorderRadius = 15;
+            this.deleteEmployee.BorderSize = 2;
+            this.deleteEmployee.FlatAppearance.BorderSize = 0;
+            this.deleteEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deleteEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deleteEmployee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.deleteEmployee.Location = new System.Drawing.Point(12, 849);
+            this.deleteEmployee.Name = "deleteEmployee";
+            this.deleteEmployee.Size = new System.Drawing.Size(170, 40);
+            this.deleteEmployee.TabIndex = 20;
+            this.deleteEmployee.Text = "Xóa nhân viên";
+            this.deleteEmployee.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.deleteEmployee.UseVisualStyleBackColor = false;
             // 
-            // customButton2
+            // updateInformation
             // 
-            this.customButton2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.updateInformation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.customButton2.BackColor = System.Drawing.Color.White;
-            this.customButton2.BackgroundColor = System.Drawing.Color.White;
-            this.customButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
-            this.customButton2.BorderRadius = 15;
-            this.customButton2.BorderSize = 2;
-            this.customButton2.FlatAppearance.BorderSize = 0;
-            this.customButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton2.Location = new System.Drawing.Point(258, 849);
-            this.customButton2.Name = "customButton2";
-            this.customButton2.Size = new System.Drawing.Size(207, 40);
-            this.customButton2.TabIndex = 21;
-            this.customButton2.Text = "Cập nhật thông tin";
-            this.customButton2.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton2.UseVisualStyleBackColor = false;
+            this.updateInformation.BackColor = System.Drawing.Color.White;
+            this.updateInformation.BackgroundColor = System.Drawing.Color.White;
+            this.updateInformation.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
+            this.updateInformation.BorderRadius = 15;
+            this.updateInformation.BorderSize = 2;
+            this.updateInformation.FlatAppearance.BorderSize = 0;
+            this.updateInformation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.updateInformation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updateInformation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.updateInformation.Location = new System.Drawing.Point(258, 849);
+            this.updateInformation.Name = "updateInformation";
+            this.updateInformation.Size = new System.Drawing.Size(207, 40);
+            this.updateInformation.TabIndex = 21;
+            this.updateInformation.Text = "Cập nhật thông tin";
+            this.updateInformation.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.updateInformation.UseVisualStyleBackColor = false;
             // 
-            // customButton3
+            // AppointmentAdministrator
             // 
-            this.customButton3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.AppointmentAdministrator.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.customButton3.BackColor = System.Drawing.Color.White;
-            this.customButton3.BackgroundColor = System.Drawing.Color.White;
-            this.customButton3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
-            this.customButton3.BorderRadius = 15;
-            this.customButton3.BorderSize = 2;
-            this.customButton3.FlatAppearance.BorderSize = 0;
-            this.customButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton3.Location = new System.Drawing.Point(528, 849);
-            this.customButton3.Name = "customButton3";
-            this.customButton3.Size = new System.Drawing.Size(260, 40);
-            this.customButton3.TabIndex = 22;
-            this.customButton3.Text = "Chỉ định làm người quản trị";
-            this.customButton3.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton3.UseVisualStyleBackColor = false;
+            this.AppointmentAdministrator.BackColor = System.Drawing.Color.White;
+            this.AppointmentAdministrator.BackgroundColor = System.Drawing.Color.White;
+            this.AppointmentAdministrator.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
+            this.AppointmentAdministrator.BorderRadius = 15;
+            this.AppointmentAdministrator.BorderSize = 2;
+            this.AppointmentAdministrator.FlatAppearance.BorderSize = 0;
+            this.AppointmentAdministrator.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AppointmentAdministrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AppointmentAdministrator.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.AppointmentAdministrator.Location = new System.Drawing.Point(528, 849);
+            this.AppointmentAdministrator.Name = "AppointmentAdministrator";
+            this.AppointmentAdministrator.Size = new System.Drawing.Size(260, 40);
+            this.AppointmentAdministrator.TabIndex = 22;
+            this.AppointmentAdministrator.Text = "Chỉ định làm người quản trị";
+            this.AppointmentAdministrator.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.AppointmentAdministrator.UseVisualStyleBackColor = false;
+            // 
+            // birthday
+            // 
+            this.birthday.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.birthday.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.birthday.Location = new System.Drawing.Point(587, 163);
+            this.birthday.Name = "birthday";
+            this.birthday.Size = new System.Drawing.Size(200, 30);
+            this.birthday.TabIndex = 23;
             // 
             // StaffInformation
             // 
@@ -400,19 +399,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 894);
-            this.Controls.Add(this.customButton3);
-            this.Controls.Add(this.customButton2);
-            this.Controls.Add(this.customButton1);
+            this.Controls.Add(this.birthday);
+            this.Controls.Add(this.AppointmentAdministrator);
+            this.Controls.Add(this.updateInformation);
+            this.Controls.Add(this.deleteEmployee);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.position);
+            this.Controls.Add(this.id);
+            this.Controls.Add(this.avatar);
+            this.Controls.Add(this.email);
+            this.Controls.Add(this.salary);
+            this.Controls.Add(this.cmnd);
+            this.Controls.Add(this.address);
+            this.Controls.Add(this.name);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -425,7 +424,7 @@
             this.Name = "StaffInformation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StaffInformation";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.avatar)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -445,24 +444,24 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox name;
+        private System.Windows.Forms.TextBox address;
+        private System.Windows.Forms.TextBox cmnd;
+        private System.Windows.Forms.TextBox salary;
+        private System.Windows.Forms.TextBox email;
+        private System.Windows.Forms.PictureBox avatar;
+        private System.Windows.Forms.Label id;
+        private System.Windows.Forms.ComboBox position;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker toDay;
+        private System.Windows.Forms.DateTimePicker since;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
-        private CustomView.CustomButton customButton1;
-        private CustomView.CustomButton customButton2;
-        private CustomView.CustomButton customButton3;
+        private CustomView.CustomButton deleteEmployee;
+        private CustomView.CustomButton updateInformation;
+        private CustomView.CustomButton AppointmentAdministrator;
+        private System.Windows.Forms.DateTimePicker birthday;
     }
 }

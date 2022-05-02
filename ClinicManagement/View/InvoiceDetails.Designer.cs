@@ -29,24 +29,25 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.excessCash = new System.Windows.Forms.Label();
+            this.customerBrought = new System.Windows.Forms.Label();
+            this.totalMoney = new System.Windows.Forms.Label();
+            this.biller = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.customButton2 = new ClinicManagement.CustomView.CustomButton();
-            this.customButton1 = new ClinicManagement.CustomView.CustomButton();
-            this.label14 = new System.Windows.Forms.Label();
+            this.deleteInvoice = new ClinicManagement.CustomView.CustomButton();
+            this.invoicePrinting = new ClinicManagement.CustomView.CustomButton();
+            this.drugMoney = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.money = new System.Windows.Forms.Label();
+            this.type = new System.Windows.Forms.Label();
+            this.symptom = new System.Windows.Forms.Label();
+            this.birthday = new System.Windows.Forms.Label();
+            this.name = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -54,7 +55,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -65,24 +65,24 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.label23);
-            this.panel1.Controls.Add(this.label22);
-            this.panel1.Controls.Add(this.label21);
-            this.panel1.Controls.Add(this.label20);
-            this.panel1.Controls.Add(this.label19);
+            this.panel1.Controls.Add(this.excessCash);
+            this.panel1.Controls.Add(this.customerBrought);
+            this.panel1.Controls.Add(this.totalMoney);
+            this.panel1.Controls.Add(this.biller);
             this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.label17);
             this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.label15);
-            this.panel1.Controls.Add(this.customButton2);
-            this.panel1.Controls.Add(this.customButton1);
-            this.panel1.Controls.Add(this.label14);
+            this.panel1.Controls.Add(this.deleteInvoice);
+            this.panel1.Controls.Add(this.invoicePrinting);
+            this.panel1.Controls.Add(this.drugMoney);
             this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.money);
+            this.panel1.Controls.Add(this.type);
+            this.panel1.Controls.Add(this.symptom);
+            this.panel1.Controls.Add(this.birthday);
+            this.panel1.Controls.Add(this.name);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
@@ -95,49 +95,59 @@
             this.panel1.Size = new System.Drawing.Size(801, 998);
             this.panel1.TabIndex = 0;
             // 
-            // label22
+            // label23
             // 
-            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(596, 938);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(67, 25);
-            this.label22.TabIndex = 24;
-            this.label22.Text = "44000";
+            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label23.Location = new System.Drawing.Point(357, 919);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(396, 2);
+            this.label23.TabIndex = 25;
             // 
-            // label21
+            // excessCash
             // 
-            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(596, 883);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(78, 25);
-            this.label21.TabIndex = 23;
-            this.label21.Text = "250000";
+            this.excessCash.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.excessCash.AutoSize = true;
+            this.excessCash.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.excessCash.Location = new System.Drawing.Point(596, 938);
+            this.excessCash.Name = "excessCash";
+            this.excessCash.Size = new System.Drawing.Size(67, 25);
+            this.excessCash.TabIndex = 24;
+            this.excessCash.Text = "44000";
             // 
-            // label20
+            // customerBrought
             // 
-            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(596, 832);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(78, 25);
-            this.label20.TabIndex = 22;
-            this.label20.Text = "206000";
+            this.customerBrought.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.customerBrought.AutoSize = true;
+            this.customerBrought.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerBrought.Location = new System.Drawing.Point(596, 883);
+            this.customerBrought.Name = "customerBrought";
+            this.customerBrought.Size = new System.Drawing.Size(78, 25);
+            this.customerBrought.TabIndex = 23;
+            this.customerBrought.Text = "250000";
             // 
-            // label19
+            // totalMoney
             // 
-            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(596, 774);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(148, 25);
-            this.label19.TabIndex = 21;
-            this.label19.Text = "Trần Ngọc Tiến";
+            this.totalMoney.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.totalMoney.AutoSize = true;
+            this.totalMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalMoney.Location = new System.Drawing.Point(596, 832);
+            this.totalMoney.Name = "totalMoney";
+            this.totalMoney.Size = new System.Drawing.Size(78, 25);
+            this.totalMoney.TabIndex = 22;
+            this.totalMoney.Text = "206000";
+            // 
+            // biller
+            // 
+            this.biller.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.biller.AutoSize = true;
+            this.biller.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.biller.Location = new System.Drawing.Point(596, 774);
+            this.biller.Name = "biller";
+            this.biller.Size = new System.Drawing.Size(148, 25);
+            this.biller.TabIndex = 21;
+            this.biller.Text = "Trần Ngọc Tiến";
             // 
             // label18
             // 
@@ -187,57 +197,57 @@
             this.label15.TabIndex = 17;
             this.label15.Text = "Người lập hóa đơn:";
             // 
-            // customButton2
+            // deleteInvoice
             // 
-            this.customButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.customButton2.BackColor = System.Drawing.Color.White;
-            this.customButton2.BackgroundColor = System.Drawing.Color.White;
-            this.customButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
-            this.customButton2.BorderRadius = 15;
-            this.customButton2.BorderSize = 2;
-            this.customButton2.FlatAppearance.BorderSize = 0;
-            this.customButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton2.Location = new System.Drawing.Point(50, 894);
-            this.customButton2.Name = "customButton2";
-            this.customButton2.Size = new System.Drawing.Size(220, 56);
-            this.customButton2.TabIndex = 16;
-            this.customButton2.Text = "Xóa hóa đơn";
-            this.customButton2.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton2.UseVisualStyleBackColor = false;
+            this.deleteInvoice.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.deleteInvoice.BackColor = System.Drawing.Color.White;
+            this.deleteInvoice.BackgroundColor = System.Drawing.Color.White;
+            this.deleteInvoice.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
+            this.deleteInvoice.BorderRadius = 15;
+            this.deleteInvoice.BorderSize = 2;
+            this.deleteInvoice.FlatAppearance.BorderSize = 0;
+            this.deleteInvoice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deleteInvoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deleteInvoice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.deleteInvoice.Location = new System.Drawing.Point(50, 894);
+            this.deleteInvoice.Name = "deleteInvoice";
+            this.deleteInvoice.Size = new System.Drawing.Size(220, 56);
+            this.deleteInvoice.TabIndex = 16;
+            this.deleteInvoice.Text = "Xóa hóa đơn";
+            this.deleteInvoice.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.deleteInvoice.UseVisualStyleBackColor = false;
             // 
-            // customButton1
+            // invoicePrinting
             // 
-            this.customButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.customButton1.BackColor = System.Drawing.Color.White;
-            this.customButton1.BackgroundColor = System.Drawing.Color.White;
-            this.customButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
-            this.customButton1.BorderRadius = 15;
-            this.customButton1.BorderSize = 2;
-            this.customButton1.FlatAppearance.BorderSize = 0;
-            this.customButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton1.Location = new System.Drawing.Point(54, 801);
-            this.customButton1.Name = "customButton1";
-            this.customButton1.Size = new System.Drawing.Size(220, 56);
-            this.customButton1.TabIndex = 15;
-            this.customButton1.Text = "In hóa đơn";
-            this.customButton1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
-            this.customButton1.UseVisualStyleBackColor = false;
+            this.invoicePrinting.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.invoicePrinting.BackColor = System.Drawing.Color.White;
+            this.invoicePrinting.BackgroundColor = System.Drawing.Color.White;
+            this.invoicePrinting.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(146)))), ((int)(((byte)(59)))));
+            this.invoicePrinting.BorderRadius = 15;
+            this.invoicePrinting.BorderSize = 2;
+            this.invoicePrinting.FlatAppearance.BorderSize = 0;
+            this.invoicePrinting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.invoicePrinting.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.invoicePrinting.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.invoicePrinting.Location = new System.Drawing.Point(54, 801);
+            this.invoicePrinting.Name = "invoicePrinting";
+            this.invoicePrinting.Size = new System.Drawing.Size(220, 56);
+            this.invoicePrinting.TabIndex = 15;
+            this.invoicePrinting.Text = "In hóa đơn";
+            this.invoicePrinting.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.invoicePrinting.UseVisualStyleBackColor = false;
             // 
-            // label14
+            // drugMoney
             // 
-            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.drugMoney.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(551, 712);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(78, 25);
-            this.label14.TabIndex = 14;
-            this.label14.Text = "176000";
+            this.drugMoney.AutoSize = true;
+            this.drugMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.drugMoney.Location = new System.Drawing.Point(551, 712);
+            this.drugMoney.Name = "drugMoney";
+            this.drugMoney.Size = new System.Drawing.Size(78, 25);
+            this.drugMoney.TabIndex = 14;
+            this.drugMoney.Text = "176000";
             // 
             // label13
             // 
@@ -264,60 +274,60 @@
             this.dataGridView1.Size = new System.Drawing.Size(776, 295);
             this.dataGridView1.TabIndex = 12;
             // 
-            // label12
+            // money
             // 
-            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(334, 294);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(67, 25);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "30000";
+            this.money.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.money.AutoSize = true;
+            this.money.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.money.Location = new System.Drawing.Point(334, 294);
+            this.money.Name = "money";
+            this.money.Size = new System.Drawing.Size(67, 25);
+            this.money.TabIndex = 11;
+            this.money.Text = "30000";
             // 
-            // label11
+            // type
             // 
-            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(334, 242);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(155, 25);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "Dị ứng phấn hoa";
+            this.type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.type.AutoSize = true;
+            this.type.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.type.Location = new System.Drawing.Point(334, 242);
+            this.type.Name = "type";
+            this.type.Size = new System.Drawing.Size(155, 25);
+            this.type.TabIndex = 10;
+            this.type.Text = "Dị ứng phấn hoa";
             // 
-            // label10
+            // symptom
             // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(334, 184);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(380, 25);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "Da mặt sưng tấy, xuất hiện nhiều mụt nước";
+            this.symptom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.symptom.AutoSize = true;
+            this.symptom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.symptom.Location = new System.Drawing.Point(334, 184);
+            this.symptom.Name = "symptom";
+            this.symptom.Size = new System.Drawing.Size(380, 25);
+            this.symptom.TabIndex = 9;
+            this.symptom.Text = "Da mặt sưng tấy, xuất hiện nhiều mụt nước";
             // 
-            // label9
+            // birthday
             // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(334, 131);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(112, 25);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "21/04/2021";
+            this.birthday.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.birthday.AutoSize = true;
+            this.birthday.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.birthday.Location = new System.Drawing.Point(334, 131);
+            this.birthday.Name = "birthday";
+            this.birthday.Size = new System.Drawing.Size(112, 25);
+            this.birthday.TabIndex = 8;
+            this.birthday.Text = "21/04/2021";
             // 
-            // label8
+            // name
             // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(334, 84);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(116, 25);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Lê Phi Long";
+            this.name.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.name.AutoSize = true;
+            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name.Location = new System.Drawing.Point(334, 84);
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(116, 25);
+            this.name.TabIndex = 7;
+            this.name.Text = "Lê Phi Long";
             // 
             // label7
             // 
@@ -391,16 +401,6 @@
             this.label1.Text = "PHIẾU KHÁM BỆNH";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label23
-            // 
-            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label23.Location = new System.Drawing.Point(357, 919);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(396, 2);
-            this.label23.TabIndex = 25;
-            // 
             // InvoiceDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -419,11 +419,11 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label money;
+        private System.Windows.Forms.Label type;
+        private System.Windows.Forms.Label symptom;
+        private System.Windows.Forms.Label birthday;
+        private System.Windows.Forms.Label name;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -432,18 +432,18 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label drugMoney;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label excessCash;
+        private System.Windows.Forms.Label customerBrought;
+        private System.Windows.Forms.Label totalMoney;
+        private System.Windows.Forms.Label biller;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
-        private CustomView.CustomButton customButton2;
-        private CustomView.CustomButton customButton1;
+        private CustomView.CustomButton deleteInvoice;
+        private CustomView.CustomButton invoicePrinting;
         private System.Windows.Forms.Label label23;
     }
 }
