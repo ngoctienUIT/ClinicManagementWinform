@@ -159,17 +159,47 @@
     <Compile Include="UserInformation.Designer.cs">
       <DependentUpon>UserInformation.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\AddMedicineQuantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AddMedicineQuantity.Designer.cs">
+      <DependentUpon>AddMedicineQuantity.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\AddNewStaff.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\AddNewStaff.Designer.cs">
       <DependentUpon>AddNewStaff.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\EmployeesList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\EmployeesList.Designer.cs">
+      <DependentUpon>EmployeesList.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\InvoiceDetails.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\InvoiceDetails.Designer.cs">
       <DependentUpon>InvoiceDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MedicineInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MedicineInfor.Designer.cs">
+      <DependentUpon>MedicineInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MedicineManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MedicineManagement.Designer.cs">
+      <DependentUpon>MedicineManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MedicineReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MedicineReport.Designer.cs">
+      <DependentUpon>MedicineReport.cs</DependentUpon>
     </Compile>
     <Compile Include="View\PatientLookup.cs">
       <SubType>Form</SubType>
@@ -247,11 +277,26 @@
     <EmbeddedResource Include="UserInformation.resx">
       <DependentUpon>UserInformation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\AddMedicineQuantity.resx">
+      <DependentUpon>AddMedicineQuantity.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\AddNewStaff.resx">
       <DependentUpon>AddNewStaff.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\EmployeesList.resx">
+      <DependentUpon>EmployeesList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\InvoiceDetails.resx">
       <DependentUpon>InvoiceDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MedicineInfor.resx">
+      <DependentUpon>MedicineInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MedicineManagement.resx">
+      <DependentUpon>MedicineManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MedicineReport.resx">
+      <DependentUpon>MedicineReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\PatientLookup.resx">
       <DependentUpon>PatientLookup.cs</DependentUpon>
