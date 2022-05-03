@@ -15,7 +15,6 @@ namespace ClinicManagement
         public PhieuKhamBenh()
         {
             InitializeComponent();
-            this.button2.BackColor = Color.White;
         }
     }
 }

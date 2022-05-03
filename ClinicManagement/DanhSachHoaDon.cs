@@ -15,8 +15,7 @@ namespace ClinicManagement
         public DanhSachHoaDon()
         {
             InitializeComponent();
-            this.button1.BackColor = Color.White;
-            this.button2.BackColor = Color.White;
+
         }
 
         private void DanhSachHoaDon_Load(object sender, EventArgs e)
