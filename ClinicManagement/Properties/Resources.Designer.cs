@@ -73,9 +73,25 @@ namespace ClinicManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< Updated upstream
         internal static System.Drawing.Bitmap image_6 {
             get {
                 object obj = ResourceManager.GetObject("image 6", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap exitbutton {
+            get {
+                object obj = ResourceManager.GetObject("exitbutton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Medicine {
+            get {
+                object obj = ResourceManager.GetObject("Medicine", resourceCulture);
+>>>>>>> Stashed changes
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -86,6 +102,16 @@ namespace ClinicManagement.Properties {
         internal static System.Drawing.Bitmap PatientLookup {
             get {
                 object obj = ResourceManager.GetObject("PatientLookup", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap report {
+            get {
+                object obj = ResourceManager.GetObject("report", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
