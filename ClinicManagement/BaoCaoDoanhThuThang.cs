@@ -10,23 +10,11 @@ using System.Windows.Forms;
 
 namespace ClinicManagement
 {
-    public partial class DanhSachHoaDon : Form
+    public partial class BaoCaoDoanhThuThang : Form
     {
-        public DanhSachHoaDon()
+        public BaoCaoDoanhThuThang()
         {
             InitializeComponent();
-            this.button1.BackColor = Color.White;
-            this.button2.BackColor = Color.White;
-        }
-
-        private void DanhSachHoaDon_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)

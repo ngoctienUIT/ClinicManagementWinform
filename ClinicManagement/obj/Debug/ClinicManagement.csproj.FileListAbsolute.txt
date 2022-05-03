@@ -90,3 +90,26 @@ D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.PhieuKhamBenh.re
 D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.ThemMoiNhanVien.resources
 D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.ThongTinNhanVien.resources
 D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.TraCuuBenhNhan.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\bin\Debug\ClinicManagement.exe.config
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\bin\Debug\ClinicManagement.exe
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\bin\Debug\ClinicManagement.pdb
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.csprojAssemblyReference.cache
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.DanhSachHoaDon.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.DatLaiMatKhau.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.Form1.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.PhieuKhamBenh.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.Properties.Resources.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.QuenMatKhau.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.RJTextBox.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.ThemMoiNhanVien.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.ThongTinNhanVien.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.TraCuuBenhNhan.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.AddNewStaff.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.InvoiceDetails.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.PatientLookup.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.RevenueManagement.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.StaffInformation.resources
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.csproj.GenerateResource.cache
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.csproj.CoreCompileInputs.cache
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.exe
+D:\2.HK2. CNPM\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.pdb
