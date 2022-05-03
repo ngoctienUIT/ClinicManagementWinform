@@ -1,7 +1,7 @@
 ﻿
 namespace ClinicManagement
 {
-    partial class TraCuuBenhNhan
+    partial class DanhSachKhamBenh
     {
         /// <summary>
         /// Required designer variable.
@@ -29,13 +29,10 @@ namespace ClinicManagement
         /// </summary>
         private void InitializeComponent()
         {
+            this.label4 = new System.Windows.Forms.Label();
             this.button_WOC1 = new ClinicManagement.Button_WOC();
             this.button_WOC2 = new ClinicManagement.Button_WOC();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,18 +41,34 @@ namespace ClinicManagement
             this.Ngay = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Loaibenh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Trieuchung = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 12F);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
+            this.label4.Location = new System.Drawing.Point(505, 160);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(161, 23);
+            this.label4.TabIndex = 65;
+            this.label4.Text = "Ngày Tháng Năm";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // button_WOC1
             // 
@@ -68,14 +81,14 @@ namespace ClinicManagement
             this.button_WOC1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button_WOC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_WOC1.Font = new System.Drawing.Font("Arial", 10.2F);
-            this.button_WOC1.Location = new System.Drawing.Point(913, 634);
+            this.button_WOC1.Location = new System.Drawing.Point(889, 630);
             this.button_WOC1.Margin = new System.Windows.Forms.Padding(2);
             this.button_WOC1.Name = "button_WOC1";
             this.button_WOC1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button_WOC1.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button_WOC1.OnHoverTextColor = System.Drawing.Color.White;
-            this.button_WOC1.Size = new System.Drawing.Size(178, 38);
-            this.button_WOC1.TabIndex = 48;
+            this.button_WOC1.Size = new System.Drawing.Size(199, 40);
+            this.button_WOC1.TabIndex = 62;
             this.button_WOC1.Text = "Quay lại";
             this.button_WOC1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
             this.button_WOC1.UseVisualStyleBackColor = false;
@@ -91,15 +104,15 @@ namespace ClinicManagement
             this.button_WOC2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button_WOC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_WOC2.Font = new System.Drawing.Font("Arial", 10.2F);
-            this.button_WOC2.Location = new System.Drawing.Point(711, 634);
+            this.button_WOC2.Location = new System.Drawing.Point(685, 630);
             this.button_WOC2.Margin = new System.Windows.Forms.Padding(2);
             this.button_WOC2.Name = "button_WOC2";
             this.button_WOC2.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button_WOC2.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button_WOC2.OnHoverTextColor = System.Drawing.Color.White;
-            this.button_WOC2.Size = new System.Drawing.Size(178, 38);
-            this.button_WOC2.TabIndex = 47;
-            this.button_WOC2.Text = "In danh sách";
+            this.button_WOC2.Size = new System.Drawing.Size(199, 40);
+            this.button_WOC2.TabIndex = 61;
+            this.button_WOC2.Text = "Tra cứu bệnh nhân";
             this.button_WOC2.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(28)))));
             this.button_WOC2.UseVisualStyleBackColor = false;
             // 
@@ -109,51 +122,12 @@ namespace ClinicManagement
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(242)))), ((int)(((byte)(224)))));
             this.label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(84)))), ((int)(((byte)(42)))));
-            this.label3.Location = new System.Drawing.Point(74, 22);
+            this.label3.Location = new System.Drawing.Point(80, 25);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(271, 29);
-            this.label3.TabIndex = 46;
-            this.label3.Text = "TRA CỨU BỆNH NHÂN";
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(428, 22);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(44, 40);
-            this.pictureBox7.TabIndex = 45;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(242)))), ((int)(((byte)(224)))));
-            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(70, 68);
-            this.pictureBox5.TabIndex = 44;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(242)))), ((int)(((byte)(224)))));
-            this.pictureBox3.Location = new System.Drawing.Point(1119, 11);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(37, 40);
-            this.pictureBox3.TabIndex = 43;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(242)))), ((int)(((byte)(224)))));
-            this.pictureBox4.Location = new System.Drawing.Point(872, 2);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(69, 68);
-            this.pictureBox4.TabIndex = 42;
-            this.pictureBox4.TabStop = false;
+            this.label3.Size = new System.Drawing.Size(308, 29);
+            this.label3.TabIndex = 60;
+            this.label3.Text = "DANH SÁCH KHÁM BỆNH";
             // 
             // label2
             // 
@@ -161,11 +135,11 @@ namespace ClinicManagement
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(242)))), ((int)(((byte)(224)))));
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(84)))), ((int)(((byte)(42)))));
-            this.label2.Location = new System.Drawing.Point(968, 26);
+            this.label2.Location = new System.Drawing.Point(986, 25);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(123, 24);
-            this.label2.TabIndex = 41;
+            this.label2.TabIndex = 56;
             this.label2.Text = "Lê Phi Long";
             // 
             // dataGridView1
@@ -178,14 +152,13 @@ namespace ClinicManagement
             this.Ngay,
             this.Loaibenh,
             this.Trieuchung});
-            this.dataGridView1.Location = new System.Drawing.Point(32, 219);
+            this.dataGridView1.Location = new System.Drawing.Point(85, 216);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1115, 320);
-            this.dataGridView1.TabIndex = 40;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.Size = new System.Drawing.Size(988, 343);
+            this.dataGridView1.TabIndex = 55;
             // 
             // STT
             // 
@@ -214,7 +187,7 @@ namespace ClinicManagement
             // Ngay
             // 
             this.Ngay.FillWeight = 150F;
-            this.Ngay.HeaderText = "Ngày Khám";
+            this.Ngay.HeaderText = "Giới tính";
             this.Ngay.MinimumWidth = 6;
             this.Ngay.Name = "Ngay";
             this.Ngay.Width = 125;
@@ -222,7 +195,7 @@ namespace ClinicManagement
             // Loaibenh
             // 
             this.Loaibenh.FillWeight = 150F;
-            this.Loaibenh.HeaderText = "Loại bệnh";
+            this.Loaibenh.HeaderText = "Năm sinh";
             this.Loaibenh.MinimumWidth = 6;
             this.Loaibenh.Name = "Loaibenh";
             this.Loaibenh.Width = 150;
@@ -230,80 +203,107 @@ namespace ClinicManagement
             // Trieuchung
             // 
             this.Trieuchung.FillWeight = 200F;
-            this.Trieuchung.HeaderText = "Triệu chứng";
+            this.Trieuchung.HeaderText = "Địa chỉ";
             this.Trieuchung.MinimumWidth = 6;
             this.Trieuchung.Name = "Trieuchung";
             this.Trieuchung.Width = 170;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(476, 28);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(221, 23);
-            this.textBox1.TabIndex = 39;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(416, 9);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(287, 59);
-            this.pictureBox2.TabIndex = 38;
-            this.pictureBox2.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(84)))), ((int)(((byte)(42)))));
-            this.label1.Location = new System.Drawing.Point(348, 102);
+            this.label1.Location = new System.Drawing.Point(336, 102);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(511, 46);
-            this.label1.TabIndex = 37;
-            this.label1.Text = "DANH SÁCH BỆNH NHÂN\r\n";
+            this.label1.Size = new System.Drawing.Size(515, 92);
+            this.label1.TabIndex = 54;
+            this.label1.Text = "DANH SÁCH KHÁM BỆNH\r\n\r\n";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Location = new System.Drawing.Point(1109, 312);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(53, 50);
+            this.pictureBox8.TabIndex = 64;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(1109, 243);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(53, 50);
+            this.pictureBox6.TabIndex = 63;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(242)))), ((int)(((byte)(224)))));
+            this.pictureBox5.Location = new System.Drawing.Point(10, 1);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(70, 68);
+            this.pictureBox5.TabIndex = 59;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(242)))), ((int)(((byte)(224)))));
+            this.pictureBox3.Location = new System.Drawing.Point(1125, 11);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(37, 40);
+            this.pictureBox3.TabIndex = 58;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(242)))), ((int)(((byte)(224)))));
+            this.pictureBox4.Location = new System.Drawing.Point(895, 1);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(69, 68);
+            this.pictureBox4.TabIndex = 57;
+            this.pictureBox4.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(242)))), ((int)(((byte)(224)))));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(0, -1);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1183, 70);
-            this.pictureBox1.TabIndex = 36;
+            this.pictureBox1.Size = new System.Drawing.Size(1184, 70);
+            this.pictureBox1.TabIndex = 53;
             this.pictureBox1.TabStop = false;
             // 
-            // TraCuuBenhNhan
+            // DanhSachKhamBenh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1182, 704);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.button_WOC1);
             this.Controls.Add(this.button_WOC2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "TraCuuBenhNhan";
-            this.Text = "TraCuuBenhNhan";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.Name = "DanhSachKhamBenh";
+            this.Text = "DanhSachKhamBenh";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -312,10 +312,12 @@ namespace ClinicManagement
 
         #endregion
 
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox6;
         private Button_WOC button_WOC1;
         private Button_WOC button_WOC2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
@@ -327,8 +329,6 @@ namespace ClinicManagement
         private System.Windows.Forms.DataGridViewTextBoxColumn Ngay;
         private System.Windows.Forms.DataGridViewTextBoxColumn Loaibenh;
         private System.Windows.Forms.DataGridViewTextBoxColumn Trieuchung;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
     }

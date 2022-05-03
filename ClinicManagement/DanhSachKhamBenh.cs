@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace ClinicManagement
 {
-    public partial class ThongTinNhanVien : Form
+    public partial class DanhSachKhamBenh : Form
     {
-        public ThongTinNhanVien()
+        public DanhSachKhamBenh()
         {
             InitializeComponent();
         }
 
-        private void rjTextBox2__TextChanged(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void rjTextBox5__TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void rjTextBox3__TextChanged(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

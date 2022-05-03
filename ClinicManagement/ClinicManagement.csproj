@@ -47,8 +47,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaoCaoDoanhThuThang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCaoDoanhThuThang.Designer.cs">
+      <DependentUpon>BaoCaoDoanhThuThang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Button_WOC.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ChiTietBaoCaoThang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChiTietBaoCaoThang.Designer.cs">
+      <DependentUpon>ChiTietBaoCaoThang.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomView\CustomButton.cs">
       <SubType>Component</SubType>
@@ -58,6 +70,12 @@
     </Compile>
     <Compile Include="DanhSachHoaDon.Designer.cs">
       <DependentUpon>DanhSachHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhSachKhamBenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhSachKhamBenh.Designer.cs">
+      <DependentUpon>DanhSachKhamBenh.cs</DependentUpon>
     </Compile>
     <Compile Include="DatLaiMatKhau.cs">
       <SubType>Form</SubType>
@@ -104,6 +122,18 @@
     </Compile>
     <Compile Include="RJTextBox.Designer.cs">
       <DependentUpon>RJTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaoPhieuKhamBenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaoPhieuKhamBenh.Designer.cs">
+      <DependentUpon>TaoPhieuKhamBenh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThayDoiThongTinThamSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThayDoiThongTinThamSo.Designer.cs">
+      <DependentUpon>ThayDoiThongTinThamSo.cs</DependentUpon>
     </Compile>
     <Compile Include="ThemMoiNhanVien.cs">
       <SubType>Form</SubType>
@@ -159,8 +189,17 @@
     <Compile Include="View\StaffInformation.Designer.cs">
       <DependentUpon>StaffInformation.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BaoCaoDoanhThuThang.resx">
+      <DependentUpon>BaoCaoDoanhThuThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChiTietBaoCaoThang.resx">
+      <DependentUpon>ChiTietBaoCaoThang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DanhSachHoaDon.resx">
       <DependentUpon>DanhSachHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhSachKhamBenh.resx">
+      <DependentUpon>DanhSachKhamBenh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DatLaiMatKhau.resx">
       <DependentUpon>DatLaiMatKhau.cs</DependentUpon>
@@ -189,6 +228,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RJTextBox.resx">
       <DependentUpon>RJTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaoPhieuKhamBenh.resx">
+      <DependentUpon>TaoPhieuKhamBenh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThayDoiThongTinThamSo.resx">
+      <DependentUpon>ThayDoiThongTinThamSo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThemMoiNhanVien.resx">
       <DependentUpon>ThemMoiNhanVien.cs</DependentUpon>

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ClinicManagement
 {
-    public partial class TraCuuBenhNhan : Form
+    public partial class ChiTietBaoCaoThang : Form
     {
-        public TraCuuBenhNhan()
+        public ChiTietBaoCaoThang()
         {
             InitializeComponent();
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }
