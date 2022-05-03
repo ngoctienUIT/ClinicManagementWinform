@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.rjTextBox4 = new ClinicManagement.RJTextBox();
-            this.button_WOC3 = new ClinicManagement.Button_WOC();
-            this.button_WOC2 = new ClinicManagement.Button_WOC();
-            this.button_WOC1 = new ClinicManagement.Button_WOC();
-            this.rjTextBox3 = new ClinicManagement.RJTextBox();
-            this.rjTextBox2 = new ClinicManagement.RJTextBox();
-            this.rjTextBox1 = new ClinicManagement.RJTextBox();
+            this.rjTextBox4 = new global::ClinicManagement.RJTextBox();
+            this.button_WOC3 = new global::ClinicManagement.Button_WOC();
+            this.button_WOC2 = new global::ClinicManagement.Button_WOC();
+            this.button_WOC1 = new global::ClinicManagement.Button_WOC();
+            this.rjTextBox3 = new global::ClinicManagement.RJTextBox();
+            this.rjTextBox2 = new global::ClinicManagement.RJTextBox();
+            this.rjTextBox1 = new global::ClinicManagement.RJTextBox();
             this.SuspendLayout();
             // 
             // label1

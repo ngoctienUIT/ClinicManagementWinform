@@ -30,7 +30,7 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.birthday = new System.Windows.Forms.DateTimePicker();
-            this.add = new ClinicManagement.CustomView.CustomButton();
+            this.add = new global::ClinicManagement.CustomView.CustomButton();
             this.cmnd = new System.Windows.Forms.TextBox();
             this.address = new System.Windows.Forms.TextBox();
             this.position = new System.Windows.Forms.TextBox();

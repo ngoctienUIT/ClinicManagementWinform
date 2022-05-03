@@ -44,9 +44,9 @@
             this.symptom = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.back = new ClinicManagement.CustomView.CustomButton();
-            this.printList = new ClinicManagement.CustomView.CustomButton();
-            this.customPanel1 = new ClinicManagement.CustomView.CustomPanel();
+            this.back = new global::ClinicManagement.CustomView.CustomButton();
+            this.printList = new global::ClinicManagement.CustomView.CustomButton();
+            this.customPanel1 = new global::ClinicManagement.CustomView.CustomPanel();
             this.search = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -345,7 +345,7 @@
         private System.Windows.Forms.TextBox search;
         private System.Windows.Forms.Label name;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private ClinicManagement.CustomView.CustomPanel customPanel1;
+        private global::ClinicManagement.CustomView.CustomPanel customPanel1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn serial;
         private System.Windows.Forms.DataGridViewTextBoxColumn patientCode;

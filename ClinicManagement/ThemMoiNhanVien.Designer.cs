@@ -43,12 +43,12 @@ namespace ClinicManagement
             this.label1 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.customButton1 = new ClinicManagement.CustomView.CustomButton();
-            this.rjTextBox1 = new ClinicManagement.RJTextBox();
-            this.rjTextBox2 = new ClinicManagement.RJTextBox();
-            this.rjTextBox3 = new ClinicManagement.RJTextBox();
-            this.rjTextBox4 = new ClinicManagement.RJTextBox();
-            this.rjTextBox5 = new ClinicManagement.RJTextBox();
+            this.customButton1 = new global::ClinicManagement.CustomView.CustomButton();
+            this.rjTextBox1 = new global::ClinicManagement.RJTextBox();
+            this.rjTextBox2 = new global::ClinicManagement.RJTextBox();
+            this.rjTextBox3 = new global::ClinicManagement.RJTextBox();
+            this.rjTextBox4 = new global::ClinicManagement.RJTextBox();
+            this.rjTextBox5 = new global::ClinicManagement.RJTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 

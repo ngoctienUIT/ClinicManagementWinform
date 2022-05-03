@@ -51,7 +51,7 @@ namespace ClinicManagement
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button_WOC1 = new ClinicManagement.Button_WOC();
+            this.button_WOC1 = new global::ClinicManagement.Button_WOC();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();

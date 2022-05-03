@@ -59,7 +59,7 @@ namespace ClinicManagement
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button_WOC1 = new ClinicManagement.Button_WOC();
+            this.button_WOC1 = new global::ClinicManagement.Button_WOC();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 

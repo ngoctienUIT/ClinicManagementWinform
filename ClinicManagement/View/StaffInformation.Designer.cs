@@ -52,9 +52,9 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.deleteEmployee = new ClinicManagement.CustomView.CustomButton();
-            this.updateInformation = new ClinicManagement.CustomView.CustomButton();
-            this.AppointmentAdministrator = new ClinicManagement.CustomView.CustomButton();
+            this.deleteEmployee = new global::ClinicManagement.CustomView.CustomButton();
+            this.updateInformation = new global::ClinicManagement.CustomView.CustomButton();
+            this.AppointmentAdministrator = new global::ClinicManagement.CustomView.CustomButton();
             this.birthday = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.avatar)).BeginInit();
             this.panel1.SuspendLayout();

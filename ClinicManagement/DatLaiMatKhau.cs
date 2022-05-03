@@ -21,5 +21,10 @@ namespace ClinicManagement
         {
 
         }
+
+        private void button_WOC3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

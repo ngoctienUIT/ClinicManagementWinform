@@ -9,8 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 
-namespace ClinicManagement
-{
+namespace ClinicManagement { 
     [DefaultEvent("_TextChanged")]
     public partial class RJTextBox : UserControl
     {

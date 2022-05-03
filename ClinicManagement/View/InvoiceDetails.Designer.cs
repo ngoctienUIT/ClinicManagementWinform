@@ -38,8 +38,8 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.deleteInvoice = new ClinicManagement.CustomView.CustomButton();
-            this.invoicePrinting = new ClinicManagement.CustomView.CustomButton();
+            this.deleteInvoice = new global::ClinicManagement.CustomView.CustomButton();
+            this.invoicePrinting = new global::ClinicManagement.CustomView.CustomButton();
             this.drugMoney = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();

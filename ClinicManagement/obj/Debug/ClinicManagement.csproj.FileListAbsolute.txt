@@ -90,3 +90,28 @@ D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.PhieuKhamBenh.re
 D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.ThemMoiNhanVien.resources
 D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.ThongTinNhanVien.resources
 D:\NhapMonCNPM\DoAn\ClinicManagement\obj\Debug\ClinicManagement.TraCuuBenhNhan.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.csproj.AssemblyReference.cache
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.DanhSachHoaDon.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.DatLaiMatKhau.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.PhieuKhamBenh.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.Properties.Resources.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.QuenMatKhau.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.RJTextBox.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.ThemMoiNhanVien.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.ThongTinNhanVien.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.TraCuuBenhNhan.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.View.AddNewStaff.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.View.InvoiceDetails.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.View.PatientLookup.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.View.RevenueManagement.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.View.StaffInformation.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.csproj.GenerateResource.cache
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.csproj.CoreCompileInputs.cache
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.exe
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.pdb
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.Login.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\bin\Debug\ClinicManagement.exe.config
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\bin\Debug\ClinicManagement.exe
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\bin\Debug\ClinicManagement.pdb
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.Home.resources
+D:\Visual Studio\c#\ClinicManagement\ClinicManagement\obj\Debug\ClinicManagement.UserInformation.resources

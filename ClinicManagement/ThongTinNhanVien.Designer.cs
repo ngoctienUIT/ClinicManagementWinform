@@ -55,12 +55,12 @@ namespace ClinicManagement
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.rjTextBox5 = new ClinicManagement.RJTextBox();
-            this.rjTextBox4 = new ClinicManagement.RJTextBox();
-            this.rjTextBox3 = new ClinicManagement.RJTextBox();
-            this.rjTextBox2 = new ClinicManagement.RJTextBox();
-            this.rjTextBox1 = new ClinicManagement.RJTextBox();
-            this.button_WOC1 = new ClinicManagement.Button_WOC();
+            this.rjTextBox5 = new global::ClinicManagement.RJTextBox();
+            this.rjTextBox4 = new global::ClinicManagement.RJTextBox();
+            this.rjTextBox3 = new global::ClinicManagement.RJTextBox();
+            this.rjTextBox2 = new global::ClinicManagement.RJTextBox();
+            this.rjTextBox1 = new global::ClinicManagement.RJTextBox();
+            this.button_WOC1 = new global::ClinicManagement.Button_WOC();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
