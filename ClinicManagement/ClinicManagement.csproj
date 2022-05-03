@@ -99,7 +99,6 @@
     <Compile Include="RJTextBox.Designer.cs">
       <DependentUpon>RJTextBox.cs</DependentUpon>
     </Compile>
-<<<<<<< Updated upstream
     <Compile Include="ThemMoiNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,13 +116,6 @@
     </Compile>
     <Compile Include="TraCuuBenhNhan.Designer.cs">
       <DependentUpon>TraCuuBenhNhan.cs</DependentUpon>
-=======
-    <Compile Include="View\AddMedicineQuantity.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\AddMedicineQuantity.Designer.cs">
-      <DependentUpon>AddMedicineQuantity.cs</DependentUpon>
->>>>>>> Stashed changes
     </Compile>
     <Compile Include="View\AddNewStaff.cs">
       <SubType>Form</SubType>
@@ -131,35 +123,11 @@
     <Compile Include="View\AddNewStaff.Designer.cs">
       <DependentUpon>AddNewStaff.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\EmployeesList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\EmployeesList.Designer.cs">
-      <DependentUpon>EmployeesList.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\InvoiceDetails.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\InvoiceDetails.Designer.cs">
       <DependentUpon>InvoiceDetails.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\MedicineInfor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\MedicineInfor.Designer.cs">
-      <DependentUpon>MedicineInfor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\MedicineManagement.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\MedicineManagement.Designer.cs">
-      <DependentUpon>MedicineManagement.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\MedicineReport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\MedicineReport.Designer.cs">
-      <DependentUpon>MedicineReport.cs</DependentUpon>
     </Compile>
     <Compile Include="View\PatientLookup.cs">
       <SubType>Form</SubType>
@@ -207,7 +175,6 @@
     <EmbeddedResource Include="RJTextBox.resx">
       <DependentUpon>RJTextBox.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< Updated upstream
     <EmbeddedResource Include="ThemMoiNhanVien.resx">
       <DependentUpon>ThemMoiNhanVien.cs</DependentUpon>
     </EmbeddedResource>
@@ -216,28 +183,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TraCuuBenhNhan.resx">
       <DependentUpon>TraCuuBenhNhan.cs</DependentUpon>
-=======
-    <EmbeddedResource Include="View\AddMedicineQuantity.resx">
-      <DependentUpon>AddMedicineQuantity.cs</DependentUpon>
->>>>>>> Stashed changes
     </EmbeddedResource>
     <EmbeddedResource Include="View\AddNewStaff.resx">
       <DependentUpon>AddNewStaff.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\EmployeesList.resx">
-      <DependentUpon>EmployeesList.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\InvoiceDetails.resx">
       <DependentUpon>InvoiceDetails.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\MedicineInfor.resx">
-      <DependentUpon>MedicineInfor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\MedicineManagement.resx">
-      <DependentUpon>MedicineManagement.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\MedicineReport.resx">
-      <DependentUpon>MedicineReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\PatientLookup.resx">
       <DependentUpon>PatientLookup.cs</DependentUpon>
@@ -274,7 +225,6 @@
     <None Include="Resources\revenue.png" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
     <None Include="Resources\Screenshot 2022-04-26 103146.png" />
   </ItemGroup>
   <ItemGroup>
@@ -288,15 +238,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot 2022-05-02 175602.png" />
-=======
-    <None Include="Resources\Medicine.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\report.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\exitbutton.png" />
->>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
