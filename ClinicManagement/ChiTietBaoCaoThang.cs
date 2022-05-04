@@ -16,5 +16,17 @@ namespace ClinicManagement
         {
             InitializeComponent();
         }
+
+        private void ChiTietBaoCaoThang_Paint(object sender, PaintEventArgs e)
+        {
+            System.Drawing.SolidBrush myBrush = new System.Drawing.SolidBrush(System.Drawing.Color.LightPink);
+            System.Drawing.Graphics formGraphics;
+            formGraphics = this.CreateGraphics();
+            formGraphics.FillEllipse(myBrush, new Rectangle(90, 250, 230, 230));
+            myBrush = new System.Drawing.SolidBrush(System.Drawing.Color.LightBlue);
+            formGraphics.FillEllipse(myBrush, new Rectangle(430, 250, 230, 230));
+            myBrush.Dispose();
+            formGraphics.Dispose();
+        }
     }
 }
