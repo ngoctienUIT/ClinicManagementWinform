@@ -96,7 +96,7 @@
             this.SearchTextBox.PasswordChar = false;
             this.SearchTextBox.PlaceholderColor = System.Drawing.Color.Black;
             this.SearchTextBox.PlaceholderText = "Tìm kiếm";
-            this.SearchTextBox.Size = new System.Drawing.Size(378, 39);
+            this.SearchTextBox.Size = new System.Drawing.Size(378, 44);
             this.SearchTextBox.TabIndex = 1;
             this.SearchTextBox.Texts = "";
             this.SearchTextBox.UnderlinedStyle = false;
@@ -123,14 +123,14 @@
             this.medicine_management_label.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.medicine_management_label.Location = new System.Drawing.Point(80, 11);
             this.medicine_management_label.Name = "medicine_management_label";
-            this.medicine_management_label.Size = new System.Drawing.Size(202, 64);
+            this.medicine_management_label.Size = new System.Drawing.Size(249, 80);
             this.medicine_management_label.TabIndex = 1;
             this.medicine_management_label.Text = "BÁO CÁO SỬ\r\nDỤNG THUỐC";
             // 
             // medicine_icon
             // 
             this.medicine_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.medicine_icon.Image = global::ClinicManagement.Properties.Resources.report;
+            this.medicine_icon.Image = global::ClinicManagement.Properties.Resources.Medicine;
             this.medicine_icon.Location = new System.Drawing.Point(12, 13);
             this.medicine_icon.Name = "medicine_icon";
             this.medicine_icon.Size = new System.Drawing.Size(62, 62);
@@ -156,7 +156,7 @@
             this.year_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(84)))), ((int)(((byte)(43)))));
             this.year_label.Location = new System.Drawing.Point(728, 11);
             this.year_label.Name = "year_label";
-            this.year_label.Size = new System.Drawing.Size(62, 24);
+            this.year_label.Size = new System.Drawing.Size(85, 32);
             this.year_label.TabIndex = 4;
             this.year_label.Text = "Năm:";
             // 
@@ -166,7 +166,7 @@
             this.YearComboBox.FormattingEnabled = true;
             this.YearComboBox.Location = new System.Drawing.Point(796, 9);
             this.YearComboBox.Name = "YearComboBox";
-            this.YearComboBox.Size = new System.Drawing.Size(189, 30);
+            this.YearComboBox.Size = new System.Drawing.Size(189, 35);
             this.YearComboBox.TabIndex = 3;
             // 
             // month_label
@@ -176,7 +176,7 @@
             this.month_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(84)))), ((int)(((byte)(43)))));
             this.month_label.Location = new System.Drawing.Point(393, 11);
             this.month_label.Name = "month_label";
-            this.month_label.Size = new System.Drawing.Size(81, 24);
+            this.month_label.Size = new System.Drawing.Size(108, 32);
             this.month_label.TabIndex = 2;
             this.month_label.Text = "Tháng:";
             // 
@@ -186,7 +186,7 @@
             this.MonthComboBox.FormattingEnabled = true;
             this.MonthComboBox.Location = new System.Drawing.Point(480, 9);
             this.MonthComboBox.Name = "MonthComboBox";
-            this.MonthComboBox.Size = new System.Drawing.Size(189, 30);
+            this.MonthComboBox.Size = new System.Drawing.Size(189, 35);
             this.MonthComboBox.TabIndex = 0;
             // 
             // MedicineReportDataGridView
@@ -196,6 +196,7 @@
             this.MedicineReportDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.MedicineReportDataGridView.Location = new System.Drawing.Point(0, 146);
             this.MedicineReportDataGridView.Name = "MedicineReportDataGridView";
+            this.MedicineReportDataGridView.RowHeadersWidth = 51;
             this.MedicineReportDataGridView.Size = new System.Drawing.Size(1264, 525);
             this.MedicineReportDataGridView.TabIndex = 3;
             // 
@@ -233,7 +234,7 @@
             // 
             // MedicineReport
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1264, 733);

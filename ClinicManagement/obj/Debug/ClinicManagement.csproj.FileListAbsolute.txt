@@ -19,7 +19,6 @@ D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.c
 D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.csproj.CoreCompileInputs.cache
 D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.exe
 D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.pdb
-D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.Form1.resources
 D:\NhapMonCNPM\DoAn\ClinicManagement\bin\Debug\ClinicManagement.exe.config
 D:\NhapMonCNPM\DoAn\ClinicManagement\bin\Debug\ClinicManagement.exe
 D:\NhapMonCNPM\DoAn\ClinicManagement\bin\Debug\ClinicManagement.pdb
@@ -143,3 +142,28 @@ D:\Visual Studio\c#\Backup\ClinicManagement\obj\Debug\ClinicManagement.pdb
 D:\Visual Studio\c#\Backup\ClinicManagement\bin\Debug\ClinicManagement.exe.config
 D:\Visual Studio\c#\Backup\ClinicManagement\bin\Debug\ClinicManagement.exe
 D:\Visual Studio\c#\Backup\ClinicManagement\bin\Debug\ClinicManagement.pdb
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.BaoCaoDoanhThuThang.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.ChiTietBaoCaoThang.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.DanhSachHoaDon.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.DanhSachKhamBenh.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.DatLaiMatKhau.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.Home.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.Login.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.PhieuKhamBenh.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.QuenMatKhau.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.RJTextBox.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.TaoPhieuKhamBenh.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.ThayDoiThongTinThamSo.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.ThemMoiNhanVien.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.ThongTinNhanVien.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.TraCuuBenhNhan.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.UserInformation.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.AddMedicineQuantity.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.AddNewStaff.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.EmployeesList.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.InvoiceDetails.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.MedicineInfor.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.MedicineManagement.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.MedicineReport.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.RevenueManagement.resources
+D:\Project\ClinicManagementWinform\ClinicManagement\obj\Debug\ClinicManagement.View.StaffInformation.resources

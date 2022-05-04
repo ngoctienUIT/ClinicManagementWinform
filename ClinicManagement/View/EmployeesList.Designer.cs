@@ -126,7 +126,7 @@
             // medicine_icon
             // 
             this.medicine_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.medicine_icon.Image = global::ClinicManagement.Properties.Resources.report;
+            this.medicine_icon.Image = global::ClinicManagement.Properties.Resources.Medicine;
             this.medicine_icon.Location = new System.Drawing.Point(12, 13);
             this.medicine_icon.Name = "medicine_icon";
             this.medicine_icon.Size = new System.Drawing.Size(62, 62);

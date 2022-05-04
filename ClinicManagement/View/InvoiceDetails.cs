@@ -37,5 +37,10 @@ namespace ClinicManagement.View
             dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(0, 94, 105);
             dataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
