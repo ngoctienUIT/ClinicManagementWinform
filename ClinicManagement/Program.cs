@@ -17,7 +17,7 @@ namespace ClinicManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StaffInformation());
+            Application.Run(new RevenueManagement());
         }
     }
 }
